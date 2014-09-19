@@ -23,10 +23,10 @@ Prior to the execution of this script, the data should be placed in a directory 
 see the file `CodeBook.md` for more information on the description of the variables and the origin of the data
 
 
-The script `run_analisis.r` generates a tidy data set from the raw data stored in the data directory
+The script `run_analisis.R` generates a tidy data set from the raw data stored in the data directory
 
 
 ### Output
 
 
-The result of the execution is a file called `tydydata.txt`. See `Codebook.md` for more information on the structure of this file.
+The result of the execution is a file called `tidydata.txt`. See `Codebook.md` for more information on the structure of this file.
