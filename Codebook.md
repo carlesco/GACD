@@ -8,10 +8,10 @@
 
 
 
-Running the script "run_analis.R" produces the following transformations
+Running the script "run_analisis.R" produces the following transformations
 
 
-1. For each of the training and test datasets, 
+1. Merges the training and the test sets to create one data set. 
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
 3. Uses the descriptive activity names to name the activities in the data set
 4. Creates a tidy data set with the average of each variable for each activity and each subject.`
@@ -35,12 +35,14 @@ The set of variables used are:
 - std: Standard deviation
 
 
-## The variables present in the "tidydata.txt" dataset is the following
+## variables 
+
+The columns present in the "tidydata.txt" dataset are the following
 
 * `subject_ID`: Integer representing the participant number
 * `activity_label`: String, that can have the following values:`WALKING`,`WALKING_UPSTAIRS`,`WALKING_DOWNSTAIRS`,`SITTING`,`STANDING`,`LAYING´
 
-## Feature Fields. 
+### Feature Fields. 
 
 * `tBodyAcc-mean()-X` 
 * `tBodyAcc-mean()-Y` 
