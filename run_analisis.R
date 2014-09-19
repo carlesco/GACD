@@ -56,7 +56,7 @@ netdata %>%
         select(subject_id, activity_label, contains("mean\\(\\)"), contains("std\\(\\)")) %>%           
         group_by(subject_id,activity_label) %>%
         summarise_each(funs(mean)) %>%
-        write.table("tidydata.txt", row.names = FALSE, sep = "\t")
+        write.table("tidydata.txt", row.names = FALSE)
 
 
 
