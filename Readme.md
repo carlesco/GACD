@@ -18,7 +18,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 ### Execution and files
 
 
-Prior to the execution of this script, the data should be placed in a directory called `<data>` in the place where the directory run_script.R is located.
+Prior to the execution of this script, the data should be placed in a directory called `<data>` in the same place as the script is located.
 
 see the file `CodeBook.md` for more information on the description of the variables and the origin of the data
 
