@@ -8,7 +8,7 @@
 
 
 
-Running the script "run_analisis.R" produces the following transformations
+Running the script `run_analisis.R` produces the following transformations
 
 
 1. Merges the training and the test sets to create one data set. 
@@ -18,7 +18,7 @@ Running the script "run_analisis.R" produces the following transformations
 
 
 
-The file with the clean data set is called <tidydata.txt>
+The file with the clean data set is called `<tidydata.txt>`
 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
@@ -40,7 +40,7 @@ The set of variables used are:
 The columns present in the "tidydata.txt" dataset are the following
 
 * `subject_ID`: Integer representing the participant number
-* `activity_label`: String, that can have the following values:`WALKING`,`WALKING_UPSTAIRS`,`WALKING_DOWNSTAIRS`,`SITTING`,`STANDING`,`LAYING´
+* `activity_label`: String, that can have the following values:`WALKING`,`WALKING_UPSTAIRS`,`WALKING_DOWNSTAIRS`,`SITTING`,`STANDING`,`LAYING`
 
 ### Feature Fields. 
 
