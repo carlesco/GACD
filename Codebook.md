@@ -44,6 +44,21 @@ The columns present in the "tidydata.txt" dataset are the following
 
 ### Feature Fields. 
 
+The column names take the following format:
+
+`
+<typemeasure><sourcemeasure>-<Type>-<Axis>
+`
+
+`typemeasure` may be  `t for Time` or `f for Frequency`.
+
+`sourecemeasure` can be `Acc` for Accelerometer or `Gyro` for Gyroscope.
+
+
+`Type` can be `Mean`, for an average, or `Std`, for standard deviation.
+
+`Axis`  indicates the axis of movement, Can be `X`, `Y` or `Z`.
+
 * `tBodyAcc-mean()-X` 
 * `tBodyAcc-mean()-Y` 
 * `tBodyAcc-mean()-Z` 
